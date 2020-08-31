@@ -17,6 +17,10 @@
       #background { height: 150px; }
   }
 
+.tab-content {
+    font-family: 'Montserrat', sans-serif;
+}  
+
 .qr {
     display: block;
     margin-left: auto;
