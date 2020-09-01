@@ -20,7 +20,7 @@
     font-family: 'Montserrat', sans-serif;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 30pt;
+    font-size: 300%;
     text-align: center;
 }
 .texto {
@@ -29,7 +29,14 @@
     padding-right: 5%;
     text-align: justify;
   }
-.qr {
+.layer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.icon-layer {
+    max-width: 70%
+}
+.icon {
     display: block;
     margin-left: auto;
     margin-right: auto;
