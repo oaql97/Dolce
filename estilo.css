@@ -3,42 +3,58 @@
     background-position: center;
     background-size: cover;
     height: 225px; width: 100%;
-  }
-  
-  @media (min-width: 480px) {
-      #background { height: 250px; }
-  }
-  
-  @media (min-width: 768px) {
-      #background { height: 200px; }
-  }
-  
-  @media (min-width: 992px) {
-      #background { height: 150px; }
-  } 
+ }
 .titulo {
     font-family: 'Montserrat', sans-serif;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 300%;
     text-align: center;
-}
+    font-size: 25pt
+ }
+.main {
+    width: 80%;
+ }
 .texto {
     font-family: 'Roboto', sans-serif;
     text-align: justify;
-  }
-.layer {
-    padding-left: 10%;
-    padding-right: 10%;
+}
+.frase{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
 }
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content:center
-}
-.box{
+ }
+ .box{
     padding-left: 1%;
     padding-right: 1%;
     height: 15%;
     width: 15%;
 }
+ @media (min-width: 300px) {
+    #background { height: 220px; }
+    .layer { padding-left: 10%; padding-right: 10%;}
+    .titulo { padding-left: 3%; padding-right: 3%; font-size: 30pt; }
+    .texto { font-size: 12pt; }
+  }
+ @media (min-width: 480px) {
+    #background { height: 220px; }
+    .layer { padding-left: 10%; padding-right: 10%;}
+    .titulo { padding-left: 3%; padding-right: 3%; font-size: 35pt; }
+    .texto { font-size: 12pt; }
+  }
+  
+  @media (min-width: 750px) {
+    #background { height: 200px; }
+    .layer { padding-left: 10%; padding-right: 10%; }
+    .titulo { padding-left: 3%; padding-right: 3%; font-size: 40pt; }
+    .texto { font-size: 15pt; }
+  }
+  
+  @media (min-width: 950px) {
+    #background { height: 180px; }
+    .layer { padding-left: 10%; padding-right: 10%; }
+    .titulo { padding-left: 1%; padding-right: 1%; font-size: 50pt; }
+    .texto { font-size: 18pt; }
+  }
