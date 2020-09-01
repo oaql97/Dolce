@@ -15,13 +15,19 @@
   
   @media (min-width: 992px) {
       #background { height: 150px; }
-  }
-
-.tab-content {
+  } 
+.titulo {
     font-family: 'Montserrat', sans-serif;
-  }  
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30pt;
+    text-align: center;
+}
 .texto {
     font-family: 'Roboto', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
   }
 .qr {
     display: block;
