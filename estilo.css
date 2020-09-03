@@ -56,6 +56,11 @@
 }
 @media (min-width: 950px) {
     #background { height: 180px; }
+    .layer { margin-right: 0% ; padding-left: 8%; padding-right: 8%; display: flex; justify-content: center; align-items: center}
+    .texto { margin: 2%; float: left; max-width: 40%; font-size: 20pt;}
+    .container { margin: 2%; float: right; width: 40%; display: flex; flex-wrap: wrap;}
+    .subtitle{ font-size: 10pt;}
+    .box{ padding: 5%; height: 25%; width: 25%; }
 }
 a{
     text-decoration: none
@@ -65,6 +70,9 @@ h1 {
 }
 body{
     margin: 0%;
+}
+main {
+    justify-content: center
 }
 footer{
     font-family: 'Montserrat', sans-serif;
